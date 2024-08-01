@@ -1,17 +1,17 @@
 NAME : ct_6_n_3_k10_t_80
-COMMENT : (ct_6_n_3_k10_t_80, Min no of trucks: 3, Optimal value: 78.05580024033355, Split: Yes)
+COMMENT : (ct_6_n_3_k10_t_80, Min no of trucks: 3, Optimal value: 563.1718897611308, Split: No)
 TYPE : SDVRP
 DIMENSION : 7
 EDGE_WEIGHT_TYPE : EUC_2D
 CAPACITY : 10
 NODE_COORD_SECTION
-1 0 0
-2 2 4
-3 8 1
-4 -1 -10
-5 -5 -6
-6 -7 5
-7 10 -6
+1 100 100
+2 159 30
+3 34 131
+4 90 45
+5 122 92
+6 42 42
+7 124 142
 DEMAND_SECTION
 1 0
 2 4.0
