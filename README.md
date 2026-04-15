@@ -10,6 +10,8 @@ The repository includes benchmark data, small test instances, interdiction proba
 
 This research focuses on the **Vehicle Routing Problem with Interdiction (VRPI)**, an extension of the classic Vehicle Routing Problem where some routes may be blocked or interrupted with a certain probability. The thesis compares **exact methods** using **CPLEX** with **heuristic methods** based on **GRASP** (Greedy Randomized Adaptive Search Procedure). 🧠🚛
 
+The models in this project were developed and solved by integrating **Python** with the **CPLEX optimization solver**, combining custom implementation logic with exact optimization capabilities. 🐍⚙️
+
 The work also develops a flexible framework that can be adapted to:
 
 - **CVRP**: Capacitated Vehicle Routing Problem.
@@ -46,6 +48,7 @@ To address this, the thesis:
 This project uses a mix of optimization and metaheuristic techniques:
 
 - **CPLEX** for exact optimization on small instances. 🧮
+- **Python** for model development, implementation, and result processing. 🐍
 - **GRASP** for heuristic and scalable solution generation. ⚙️
 - **K-Nearest Neighbors (KNN)** for initial route construction in some configurations. 🧭
 - **Local search** improvements such as:
